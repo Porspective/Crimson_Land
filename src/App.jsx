@@ -39,6 +39,7 @@ function App() {
     <div className="min-h-screen bg-gray-100 flex items-center justify-center">
       <div className="bg-white p-8 rounded-lg shadow-md">
         <h1 className="text-2xl font-bold mb-4">Stripe Payment Demo</h1>
+        <p className="mb-4 text-gray-600">Click the button below to make a $10 payment</p>
         <button
           onClick={handlePayment}
           disabled={loading}
